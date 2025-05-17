@@ -7,3 +7,9 @@ private:
     int *arr;
     int panjang;
 
+public:
+    angka(int); // construction
+    ~angka();   // destruction
+    void cetakData();
+    void isiData();
+};
